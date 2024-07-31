@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: transparent;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100%;
+    background-color: #FFFFFF;
+    
+}
+.nav-part1{
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 10%;
+
+}
+.navp1-nav {
+    width: 50%;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    
+    
+}
+.navp1-nav > a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #474747;
+    padding: 5px;
+    
+}
+.navp1-btn{
+    padding:0px 6px;
+    display: flex;
+    gap: 10px;
+    
+}
+.btn1,.btn2 {
+    background-color: #567B95;
+    padding: 1px 10px;
+    border-radius: 3px ;
+    border: transparent;
+    color: #FFFFFF;
+}
+.nav-part2{
+    width: 100%;
+    height: 100px;
+    padding: 10px 0px;
+    padding-top: 19px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.dateinfo{
+    width:10;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #474747;
+    padding: 5px ;
+
+}
+.logo{
+    width:50%;
+    padding: 10px 0px ;
+    
+}
+.svg{
+    width: 490px;
+    height: 65px;    
+    font-size: 2rem;
+    padding: 3px px;
+}
+.nav-part3{
+    display: flex;
+}
+.navp3-1,.navp3-3{
+    width: 18%;
+    height: 40px;
+    
+}
+.heading{
+    width: 62%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    
+}
+.heading > h6{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #474747;
+    
+}
+.bar{
+    border-top: 1px solid black;
+    width: 100%;
+    padding: 1px 0px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    gap: 50px;
+    padding: 10px;
+}
+.section > h5{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #1a1919;
+    
+}
+span{
+    color: red;
+    font-weight: 700;
+}
+.part2{
+    height: 100vh;
+    width: 100%;
+    
+    
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+}
+.content{
+    height: 100%;
+    width: 75%;
+    
+    padding: 5px;
+    
+}
+.side-bar{
+    height: 100%;
+    width: 25%;
+    
+    padding: 5px;
+    
+    
+    
+}
+.post,.p1{
+    width: 100%;
+    height: 50%;
+    
+    padding: 5px;
+    display: flex;
+    border-bottom: 1.5px solid #838181;
+}
+.info{
+    width: 50%;
+    height: 100%;
+   
+    padding: 20px 5px;
+    
+}
+
+.image{
+    width: 50%;
+    height: 100%;
+    
+    padding-bottom: 5px;
+}
+
+.info>h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.info>p{
+    font-size: 0.9rem;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    background-image: url(https://static01.nyt.com/images/2024/07/30/multimedia/30election-live-trump-ingraham-hgzc/30election-live-trump-ingraham-hgzc-superJumbo.jpg?quality=75&auto=webp);
+    background-size: cover;
+}
+.info>link> a {
+    text-decoration: none;
+    color:#567B95;
+
+}
+.img2{
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    background-image: url(https://static01.nyt.com/images/2024/07/24/multimedia/00China-Thailand-EV-01-ljfc/00China-Thailand-EV-01-ljfc-superJumbo.jpg?quality=75&auto=webp);
+    background-size: cover;
+}
+.extra-post{
+    height: 85%;
+    width: 100%;
+    
+}
+.sec3-post{
+    display: flex;
+    height: 70%;
+    gap: 5px
+    ;
+    width: 75%;
+    
+    padding: 5px;
+    border-top: 1.5px solid #838181;
+}
+.btn-group{
+    gap: 3px;
+}
+.card-body{
+    background-color: transparent;
+}
+.sb2{
+    border-right:1.5px solid #838181;
+}
+.bb{
+    border-bottom:1.5px solid #838181; 
+}
+.recent{
+    gap: 50px
+    ;
+}
+.box{
+    width: 100%;
+    height: 15%;
+    background-color: red;
+}
+.logo2{
+    
+    border-top: 1.5px solid #838181 ;
+}
+svg{
+    width: 20%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.footer-links{
+    width:75%;
+    height: 320px;
+    
+    display: flex;
+    justify-content: space-between;
+    border-right: 1.2px solid #838181;
+}
+.footer-part1 >h5{
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: normal;
+}
+.footer-part1{
+    width: 100%;
+    height: 340px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.links{
+    color: #1a1919;
+    font-size: 1rem;
+    font-weight: 450;
+    padding: 10px;
+    
+}
+.footer-part2{
+    width: 25%;
+    height: 45%;
+    border-bottom: 1.5px solid #838181;
+
+    
+}
+.footer-part3{
+    font-size: 0.8rem;
+    color: #1a1919;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1.5px solid #838181;
+}
